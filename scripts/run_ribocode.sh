@@ -31,3 +31,5 @@ for bam in $BAM_DIR/*.bam; do
 done
 
 echo "RiboCode uORF detection complete. Results in $OUTPUT_DIR"
+
+## This script detects both canonical and near-cognate start codons, generating a translated ORFs table for each BAM file.
