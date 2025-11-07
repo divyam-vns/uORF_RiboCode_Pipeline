@@ -1,0 +1,14 @@
+name: ribocode_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ribocode
+  - pysam
+  - pandas
+  - matplotlib
+  - seaborn
+  - numpy
+  - biopython
